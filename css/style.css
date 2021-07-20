@@ -1,4 +1,4 @@
-html, body, h1, h2, h3, h4, h5, h6 {
+html, body{
     font-family: Verdana;
     font-size: 16px;
 }
@@ -6,4 +6,50 @@ html, body, h1, h2, h3, h4, h5, h6 {
 .button-apply-now{
     background-color: #ED2541 !important; /* Green */
 }
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+
+.ca3-container{
+    position: relative;
+}
+
+.ca3-image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+.ca3-middle{
+    transition: .5s ease;
+    position: absolute;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.ca3-container:hover .ca3-image {
+    opacity: 0.2;
+  }
+  
+  .ca3-container:hover .ca3-middle{
+    opacity: 1;
+}
+.ca3-width{
+    width: max-content;
+}
+.ca3-padding-large{
+    padding: 100px 0px 64px 100px;
+}
+
+a{
+    text-decoration: none;
+}
+
   
