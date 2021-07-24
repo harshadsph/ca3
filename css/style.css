@@ -47,9 +47,46 @@ html, body{
 .ca3-padding-large{
     padding: 100px 0px 64px 100px;
 }
+.ca3-divider-text{
+    padding: 3px; 
+    font-size: large; 
+    letter-spacing: 3px;
+    text-transform:uppercase;
+    font-weight: 500;
+}
 
 a{
     text-decoration: none;
+}
+
+.fa-play-circle, 
+.fa-circle{
+    font-size: 100px;
+    line-height: 0 !important;
+}
+.fa-chevron-left, 
+.fa-chevron-right{
+    font-size: 30px;
+}
+#ca3-video-background, #ca3-video{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.ca3-video{
+    z-index: 100;
+}
+.ca3-dimond{
+    display: none;
+}
+
+.ca3-dimond-text{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: italic;
+    font-size: large !important;
 }
 
   
